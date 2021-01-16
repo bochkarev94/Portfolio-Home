@@ -1,0 +1,36 @@
+
+[
+    {
+        "img": "../../assets/images/my-project/prengi.jpg",
+        "to": "http://sparrow-black2020.ru/prengi/",
+        "alt": "Java Script",
+        "name": "Java Script",
+        "button": "Open",
+        "link": "https://github.com/bochkarev94/Portfolio_prengi"
+    },
+    {
+        "img": "../../assets/images/my-project/glopt.jpg",
+        "to": "http://sparrow-black2020.ru/Global-Opt/",
+        "alt": "Jquery",
+        "name": "Jquery",
+        "button": "Open",
+        "link": "https://github.com/bochkarev94/portfolio__Global"
+    },
+    {
+        "img": "../../assets/images/my-project/puls.jpg",
+        "to": "http://sparrow-black2020.ru/puls/",
+        "alt": "Java Script",
+        "name": "Java Script",
+        "button": "Open",
+        "link": "https://github.com/bochkarev94/portfolio_puls"
+    },
+    {
+        "img": "../../assets/images/my-project/react.png",
+        "to": "http://sparrow-black2020.ru/react/",
+        "alt": "React.js",
+        "name": "React.js",
+        "button": "Open",
+        "link": "https://github.com/bochkarev94/portfolio-react-weekly"
+    }
+
+]
