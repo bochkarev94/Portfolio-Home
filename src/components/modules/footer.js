@@ -3,7 +3,7 @@ import {Link} from 'gatsby';
 import styled from 'styled-components';
 import {SiVk} from 'react-icons/si';
 import {AiFillGithub} from 'react-icons/ai';
-import {ImLinkedin} from 'react-icons/im';
+import {AiFillSkype} from 'react-icons/ai';
 
 const Footer = () => {
     return (
@@ -15,14 +15,14 @@ const Footer = () => {
                 </Item>
                 <Item>
                     <Text>или напешити мне:</Text>
-                    <Email to='/'>akbars06_2010@mail.ru</Email>
+                    <Email href='mailto:bochkarv_94@mail.ru'>bochkarv_94@mail.ru</Email>
                 </Item>
                 <Item>
                     <Text>Я в социальных сетях:</Text>
                     <Soc>
                         <a className="vk" href='https://vk.com/amur94'><SiVk/></a>
                         <a className='git' href='https://github.com/bochkarev94'><AiFillGithub/></a>
-                        <a href='#'><ImLinkedin/></a>
+                        <a href='skype:[akbars06_2010@mail.ru]'><AiFillSkype/></a>
                     </Soc>
                 </Item>
             </Wrapper>

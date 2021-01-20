@@ -43,6 +43,5 @@ module.exports = {
         path: `./src/components/data/`,
       },
     },
-
   ],
 }

@@ -17,9 +17,9 @@ export const Button = styled(Link)`
     border-radius:${({round}) => (round ? '50px' : 'none')};
     z-index: 100;
 
+
     &:hover {
         background : #001263;
         transform: translateY(-2px);
-
     }
 `

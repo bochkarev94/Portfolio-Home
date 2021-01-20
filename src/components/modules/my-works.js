@@ -144,6 +144,7 @@ const Icon = styled.div`
     right: 20px;
     font-size: 50px;
     cursor: pointer;
+    
     .git {
         color : #fff;
 
@@ -152,4 +153,8 @@ const Icon = styled.div`
             transition: 0.5s all;
         }
     }
+    &:hover {
+            transition: 0.5s all;
+            transform: translateY(-2px);
+        }
 `

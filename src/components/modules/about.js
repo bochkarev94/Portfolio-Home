@@ -10,7 +10,7 @@ const About= () => {
     const data = useStaticQuery(graphql`
         query {
             allFile(filter: {ext: {regex: "/(jpg)|(png)|(jpeg)/"},
-                name: {in: "portret"}}) {
+                name: {in: "foto"}}) {
                 edges {
                 node {
                     childImageSharp {
@@ -40,16 +40,10 @@ const About= () => {
                             font-size: 32px;
                             margin-bottom: 16px;
                         `}/>
-                        <h3>Sean Michaels</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut amet repellendus
-                        ipsa inventore libero alias porro ab, sed incidunt sapiente tempore molestias
-                        minus unde deserunt repudiandae eum magni nostrum temporibus.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut amet repellendus
-                        ipsa inventore libero alias porro ab, sed incidunt sapiente tempore molestias
-                        minus unde deserunt repudiandae eum magni nostrum temporibus.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut amet repellendus
-                        ipsa inventore libero alias porro ab, sed incidunt sapiente tempore molestias
-                        minus unde deserunt repudiandae eum magni nostrum temporibus.</p>
+                        <h3>Меня зовут Иван</h3>
+                        <p>Свой путь в WEB-e я начал с 2018г. Понемногу, в свободное от работы время, я осваивал вёрстку. Каждый раз работая над макетом, я всё больше погружался в тонкости web-разработки, а далее мое внимание привлек JavaScript. Первые шаги в нём довались со скрипом, возникали трудности. Ни долго думая, решил шерстить интернет в поисках специализирующих курсов. Курсы нашлись, но катастрофически не хватало времени. И вот в один прекрасный день, понимая, что, разрываясь на два фронта, не чего хорошего не получится, и я решил уволиться с предыдущей работы, полностъю посвятив себя WEB-разработки.</p> 
+                        <p>Сейчас я хочу найти работу в сфере WEB-а, так как мне кажется, я уже развил достаточный навык для старта в данной сфере.</p>
+                        
                     </Title>
                     <WrapperItem>
                             <IoIosCheckmarkCircleOutline css={`
@@ -58,20 +52,24 @@ const About= () => {
                         `}/>             
                         <Item>
                             
-                            <h4>Sean Michaels</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut amet repellendus
-                            ipsa inventore libero alias porro ab, sed incidunt sapiente tempore molestias
-                            minus unde deserunt repudiandae eum magni nostrum temporibus.</p>
+                            <h4>Чего я жду от работы:</h4>
+                            <ul>
+                                <li>Поток проектов, которыми не стыдно похвасться</li>
+                                <li>Налаженная система постановки задач</li>
+                                <li>Возможность применять новые технологии в проектах</li>
+                                <li>Человеческое отношение</li>
+                            </ul>
                         </Item>
                             <IoIosCheckmarkCircleOutline css={`
                             color: #c57700;
                             font-size: 22px;
                         `}/>
                        <Item>
-                            <h4>Sean Michaels</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut amet repellendus
-                            ipsa inventore libero alias porro ab, sed incidunt sapiente tempore molestias
-                            minus unde deserunt repudiandae eum magni nostrum temporibus.</p>.
+                            <h4>Что я готов предоставить:</h4>
+                            <li>Своё время</li>
+                            <li>Высокое качество работы</li>
+                            <li>Постоянно быть онлайн</li>
+                            <li>Выполнение всей работы в срок</li>
                         </Item>
                     </WrapperItem>
                 </ColTwo>
@@ -132,9 +130,12 @@ const Title = styled.div`
     }
     p {
         font-size: 20px;
+        text-indent: 40px;
+
         @media screen and (max-width: 992px) {
         font-size: 18px;
     }
+    
         @media screen and (max-width: 768px) {
         font-size: 16px;
         padding-right: 0;

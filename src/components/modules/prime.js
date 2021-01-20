@@ -18,12 +18,17 @@ const Prime = () => {
             <Content>
                 <Items>
                     <P>Меня зовут Бочкарев Иван</P>
-                    <H1>Я начинающий WEB-разработчик</H1>
+                    <H1>Я WEB-разработчик из Москвы</H1>
                     <PrimeButton>
                         <Button 
-                    primary='trye' 
-                    big='trye'
-                    round='trye'>Резюмэ</Button>
+                            primary='trye' 
+                            big='trye'
+                            round='trye'
+                            href='http://sparrow-black2020.ru/Download-fails/resume.pdf'
+                            download=""
+                        >   
+                        Download cv
+                    </Button>
                     </PrimeButton>
                 </Items>
             </Content>

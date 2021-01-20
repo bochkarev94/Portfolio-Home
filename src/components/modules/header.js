@@ -29,7 +29,12 @@ const Header = ({toggle}) => {
       })}
       </NavMenu>
       <NavBtn>
-        <Button primary='true' round='true' >Резюмэ</Button>
+        <Button primary='true' 
+        round='true' 
+        href='http://sparrow-black2020.ru/Download-fails/resume.pdf'
+        download="">
+          Download cv
+        </Button>
       </NavBtn>
     </Nav>
   )

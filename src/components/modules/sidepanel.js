@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import {Button} from'./button';
 import {FaTimes} from 'react-icons/fa';
 import {Menu} from '../data/menu';
 import {Link} from "react-scroll";
@@ -31,13 +30,6 @@ const Sidepanel = ({isOpen, toggle}) => {
                             )
                     })}
                 </SideMenu>
-                <BtnWrap>
-                    <Button 
-                    round='trye'
-                    to='/'>
-                        Резюмэ
-                    </Button>
-                </BtnWrap>
             </Wrapper>
         </Container>
     )
@@ -102,9 +94,4 @@ display: flex;
     &:hover {
         color: #f26a2e;
     }
-`
-
-const BtnWrap = styled.div`
-    display: flex;
-    justify-content: center;
 `
